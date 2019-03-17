@@ -1,9 +1,9 @@
 package com.bsobat.github.ui.util;
 
 import android.content.Context;
-import android.databinding.BindingAdapter;
 import android.widget.ImageView;
 
+import androidx.databinding.BindingAdapter;
 import com.bumptech.glide.Glide;
 
 public final class DataBinder {

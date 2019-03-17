@@ -1,8 +1,8 @@
 package com.bsobat.github.dto;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import com.bsobat.github.exception.AppException;
 
 import static com.bsobat.github.dto.Resource.Status.ERROR;

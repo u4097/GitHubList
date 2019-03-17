@@ -1,8 +1,8 @@
 package com.bsobat.github.di.module;
 
 import android.app.Application;
-import android.arch.persistence.room.Room;
 
+import androidx.room.Room;
 import com.bsobat.github.dao.GitHubDao;
 import com.bsobat.github.dao.GitHubDatabase;
 

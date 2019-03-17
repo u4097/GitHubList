@@ -1,19 +1,19 @@
 package com.bsobat.github;
 
-import android.arch.lifecycle.LifecycleActivity;
-import android.arch.lifecycle.Observer;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.Window;
 import android.widget.Toast;
 
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.Observer;
 import com.bsobat.github.dto.GitHubResponse;
 import com.bsobat.github.dto.Resource;
 import com.bsobat.github.guiView.MainView;
 import com.bsobat.github.viewmodel.MainActivity2ViewModel;
 
-public class MainActivity2  extends LifecycleActivity {
+public class MainActivity2  extends AppCompatActivity {
     public static final int LIMIT = 15;
     private int page = 1;
     private MainView view;

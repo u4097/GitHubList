@@ -1,13 +1,12 @@
 package com.bsobat.github.repo;
 
-import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.MediatorLiveData;
-import android.arch.lifecycle.Observer;
-import android.os.AsyncTask;
-import android.support.annotation.Nullable;
-import android.support.annotation.WorkerThread;
 import android.util.Log;
 
+import androidx.annotation.Nullable;
+import androidx.annotation.WorkerThread;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MediatorLiveData;
+import androidx.lifecycle.Observer;
 import com.bsobat.github.api.GitHubApi;
 import com.bsobat.github.dao.GitHubDao;
 import com.bsobat.github.dto.GitHubDto;

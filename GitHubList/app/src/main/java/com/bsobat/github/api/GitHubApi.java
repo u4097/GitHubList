@@ -1,7 +1,7 @@
 package com.bsobat.github.api;
 
-import android.arch.lifecycle.LiveData;
 
+import androidx.lifecycle.LiveData;
 import com.bsobat.github.dto.ApiResponse;
 import com.bsobat.github.dto.GitHubDto;
 
